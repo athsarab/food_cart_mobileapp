@@ -1,7 +1,24 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://maven.google.com' }
+        jcenter() // Warning: this repository is going to shut down
+    }
+    
+    dependencies {
+        classpath 'com.google.gms:google-services:4.3.15' // Downgrading to a more stable version
+    }
+}
+
 allprojects {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://maven.google.com' }
+        jcenter() // Warning: this repository is going to shut down
     }
 }
 
