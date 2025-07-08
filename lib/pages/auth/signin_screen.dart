@@ -397,17 +397,12 @@ class _SignInScreenState extends State<SignInScreen> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       _buildSocialButton(
-                        icon: 'assets/icons/google.png',
+                        icon: 'assets/icons/google-color-svgrepo-com.svg',
                         onPressed: () {},
                       ),
                       const SizedBox(width: 16),
                       _buildSocialButton(
-                        icon: 'assets/icons/facebook.png',
-                        onPressed: () {},
-                      ),
-                      const SizedBox(width: 16),
-                      _buildSocialButton(
-                        icon: 'assets/icons/apple.png',
+                        icon: 'assets/icons/facebook-2-logo-svgrepo-com.svg',
                         onPressed: () {},
                       ),
                     ],
